@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
+<html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="description" content="The Dude's Rug.">
+  <link rel="canonical" href="https://ukb-dt.github.io/repos-00/">
+  <meta name="robots" content="index,follow">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="Repos">
+  <meta property="og:title" content="The Dude's Rug">
+  <meta property="og:description" content="Saddle Point">
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="https://ukb-dt.github.io/repos-00/">
+  <meta property="og:image" content="../img/ukb-landscape.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Dude's Rug">
+  <meta name="twitter:description" content="Saddle Point">
+  <meta name="twitter:image" content="../img/ukb-landscape.jpg"> 
+
+    <!-- Icons / assets -->
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" type="image/x-icon">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-dark.ico" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-light.png" as="image">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-dark.png" as="image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../css/head.css" rel="stylesheet" />
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<!-- body[header, main, footer] -->
+<body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
+
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="https://ukb-dt.github.io/repos-00/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+
+
+          <!-- Nietzschean Core -->
+          <a href="#"><div class="icon-box">🔥</div>Dionysian Frenzy</a>
+          <a href="#"><div class="icon-box">🏛️</div>Apollonian Form</a>
+          <a href="#"><div class="icon-box">💥</div>Daemon / Possession</a>
+          <a href="#"><div class="icon-box">⚡</div>Ecstatic Overflow</a>
+          <a href="#"><div class="icon-box">📖</div>Twilight of the Idols</a>
+          <a href="#"><div class="icon-box">🩸</div>Abundance vs. Impoverishment</a>
+
+          <!-- Composers & Performers -->
+          <a href="#"><div class="icon-box">🎹</div>Johann Sebastian Bach</a>
+          <a href="#"><div class="icon-box">🎼</div>Glenn Gould</a>
+          <a href="#"><div class="icon-box">🎻</div>Ludwig van Beethoven</a>
+          <a href="#"><div class="icon-box">🎹</div>Wolfgang Amadeus Mozart</a>
+          <a href="#"><div class="icon-box">🪄</div>Bernstein's Daemon</a>
+
+          <!-- Thermodynamic / Dissipative -->
+          <a href="#"><div class="icon-box">🌪️</div>Dissipative Structure</a>
+          <a href="#"><div class="icon-box">🌡️</div>Far-from-Equilibrium</a>
+          <a href="#"><div class="icon-box">🔥</div>Energy Throughput</a>
+          <a href="#"><div class="icon-box">☢️</div>Hawking Radiation</a>
+          <a href="#"><div class="icon-box">🌀</div>Irreversible Flow</a>
+
+          <!-- Optimization Analogies -->
+          <a href="#"><div class="icon-box">⭐</div>Star (Cliché / Pop)</a>
+          <a href="#"><div class="icon-box">🌧️</div>Raindrop (Art / Exploration)</a>
+          <a href="#"><div class="icon-box">📉</div>Stochastic Gradient Descent</a>
+          <a href="#"><div class="icon-box">🧊</div>Frozen Equilibrium</a>
+          <a href="#"><div class="icon-box">🌡️</div>Temperature > 0</a>
+          <a href="#"><div class="icon-box">📈</div>Noise as Escape</a>
+
+          <!-- Performance Dynamics -->
+          <a href="#"><div class="icon-box">🤘</div>Gould's Frenzy</a>
+          <a href="#"><div class="icon-box">🎭</div>Intoxication Made Audible</a>
+          <a href="#"><div class="icon-box">🕺</div>Physical Dissipation</a>
+          <a href="#"><div class="icon-box">♾️</div>Open Ledger</a>
+          <a href="#"><div class="icon-box">🚀</div>Daemon's Heat Engine</a>
+
+
+    </div>
+  </header>
+
+  <!-- main[sections], footer -->
+  <main class="page wrap-max">
+
+<section class="card">
+  <h1>Stochastic Foraging 🐜 - The Ant Scout's Blind Vision</h1>
+  <h2>Ukubona LLC Logo Provocation</h2>
+  <p>In the wild of uncertainty, "Ukubona" — to see — becomes a paradox: vision in blindness. Like an ant scout, we forage stochastically, probing the unknown without a map. Our logo? A compass radaring at 360 degrees every 60 seconds, eternally scanning the horizon for signals in the noise.</p>
+  <p>This isn't passive observation; it's active survival. In calculus terms, it's gradient descent in the dark: feel the slope, step humbly, adapt or perish.</p>
+</section>
+
+<section class="card">
+  <h2>The Compass as Stochastic Radar</h2>
+  <h3>360 Degrees / 60 Seconds: Eternal Vigilance</h3>
+  <p>Imagine a compass not pointing north, but pulsing outward in all directions, every minute resetting its scan. This is stochastic foraging visualized: blind to the global optimum, yet attuned to local gradients. The ant scout doesn't know the colony's path; it wanders, samples, returns with probabilistic intel.</p>
+  <p>In SGD parlance: \( \theta_{t+1} = \theta_t - \eta \cdot \nabla J(\theta_t + \epsilon) \), where \(\epsilon\) is the blind forage, the radar's noise injecting exploration into exploitation.</p>
+</section>
+
+<section class="card">
+  <h2>Blind Seeing: From Intuition to Rigor</h2>
+  <h3>Subsuming Foraging in Pentadic Calculus</h3>
+  <p>The ant's blind path rigorizes into the pentad: locus (current position), expectation (pheromone trail), velocity (forage speed), volatility (environmental noise), and integral (accumulated survival). Our logo embodies this: the radar sweep as derivative probe, the 60-second cycle as iterative update.</p>
+  <p>Reasonableness? In survival's stochastic wild, total vision is hubris. Ukubona LLC forages humbly, witnessing the mirror of adaptation.</p>
+</section>
+
+<section class="card">
+  <h2>Logo in the Stochastic Wild: Survival Accounting</h2>
+  <h3>Ant Scout Meets Compass Radar</h3>
+  <p>Ukubona's emblem: an ant atop a compass, radaring blindly. 360 degrees symbolize infinite dimensions; 60 seconds, the heartbeat of iteration. This is Ukhona's accounting — tallying blind steps toward minima, whether in markets, music, or medicine.</p>
+  <p>From Heraclitean flux to quantum dice: we step, not map. The logo provokes: See blindly, or stagnate in the dark.</p>
+</section>
+
+<section class="card">
+  <h2>Musical Echoes: Groove in Blind Foraging</h2>
+  <h3>Radar as Rhythmic Pulse</h3>
+  <p>In music theory, the logo's 60-second radar is metronomic yet stochastic — like jazz improvisation, feeling the pocket without seeing the score. Ant scouts syncopate: wander off-beat, return on-phrase. Calculus subsumes: descent via rhythmic gradients, minimizing dissonance in the auditory wild.</p>
+  <p>Our emblem radars the groove: 360 degrees of harmonic possibility, scanned blindly every measure.</p>
+</section>
+
+<section class="card">
+  <h1>Exploring Ant Foraging Algorithms</h1>
+  <h2>From Biology to Computation</h2>
+  <p>
+    Ant foraging algorithms draw inspiration from the remarkable collective behaviors observed in real ant colonies, 
+    where simple individual actions lead to efficient group-level problem-solving. These biological processes have been 
+    abstracted into computational models, most notably Ant Colony Optimization (ACO), which applies to various optimization 
+    challenges. Below, we delve into the biological foundations, computational adaptations, key examples like the "anternet," 
+    and a practical simulation.
+  </p>
+</section>
+
+<section class="card">
+  <h1>Biological Foundations of Ant Foraging</h1>
+  <h2>I. Stigmergy — Indirect Communication</h2>
+  <h3>1. Pheromone Trails as Collective Memory</h3>
+  <p>
+    Real ants exhibit sophisticated foraging without central control, relying on <strong>stigmergy</strong>—indirect 
+    communication through environmental modifications, primarily via pheromone trails. When an ant discovers food, 
+    it deposits pheromones on its return path to the nest. Other ants detect these chemicals and probabilistically 
+    follow stronger trails, creating positive feedback: successful paths accumulate more pheromones, while unused 
+    ones fade due to evaporation. This balances exploration (random initial searches) and exploitation (reinforcing good paths).
+  </p>
+  
+  <h3>2. The Double-Bridge Experiment</h3>
+  <p>
+    Key experiments, such as the <strong>double-bridge setup</strong>, demonstrate this: ants placed between a nest 
+    and food source with two unequal bridges initially explore randomly but converge on the shorter bridge as 
+    pheromones build faster on it. In dynamic scenarios, evaporation prevents stagnation, allowing adaptation if 
+    food sources change.
+  </p>
+  
+  <h3>3. Gordon's Harvester Ants: Local Interactions, Global Regulation</h3>
+  <p>
+    Deborah Gordon's research on harvester ants highlights how colonies regulate foraging via local interactions: 
+    an ant decides to forage based on the rate of encountering returning foragers with food. This positive feedback 
+    ensures activity scales with resource availability, akin to evolutionary pressures in arid environments where 
+    water conservation influences behavior. Larger, older colonies show more stable responses, ignoring minor disturbances.
+  </p>
+  
+<figure class="responsive-img">
+    <img src="../img/stochastic-foragin-1.jpg" 
+         alt="Ant foraging dynamics diagram showing pheromone trails and recruitment strategies" 
+         loading="lazy"
+         style="max-width: 100%; height: auto; display: block;">
+    <figcaption>
+      This diagram illustrates ant foraging dynamics, including pheromone trails and recruitment strategies across species.
+    </figcaption>
+  </figure>
+</section>
+<section class="card">
+  <h1>Ant Colony Optimization (ACO)</h1>
+  <h2>II. From Biology to Computation</h2>
+  <h3>1. The Algorithm Genesis</h3>
+  <p>
+    ACO, first proposed by Marco Dorigo in 1992, mimics ant foraging to solve graph-based optimization problems 
+    like the Traveling Salesman Problem (TSP). Artificial "ants" construct solutions on a graph, depositing virtual 
+    pheromones on promising components, with evaporation promoting diversity.
+  </p>
+  
+  <h3>2. Key Principles</h3>
+  <ul>
+    <li><strong>Pheromone Trails (τ):</strong> Represent solution quality.</li>
+    <li><strong>Heuristic Information (η):</strong> Often inverse distance (e.g., $1/d$ for edges).</li>
+    <li><strong>Probabilistic Choice:</strong> Ants select next steps with probability</li>
+  </ul>
+  
+  $$ p_{xy}^k = \frac{(\tau_{xy}^\alpha) (\eta_{xy}^\beta)}{\sum (\tau_{xz}^\alpha) (\eta_{xz}^\beta)} $$
+  
+  <p>where $\alpha$ and $\beta$ weight pheromone and heuristic.</p>
+  
+  <ul>
+    <li><strong>Updates:</strong> After tours, pheromones evaporate ($\tau \leftarrow (1 - \rho)\tau$) and are reinforced ($\Delta\tau = Q / L$ for tour length $L$).</li>
+    <li><strong>Stigmergy in ACO:</strong> Ants communicate indirectly via a shared pheromone matrix, leading to emergent optimal paths.</li>
+  </ul>
+  
+  <h3>3. Algorithm Steps</h3>
+  <ol>
+    <li>Initialize pheromones uniformly.</li>
+    <li>Each ant builds a solution stochastically.</li>
+    <li>Evaluate solutions (e.g., tour cost).</li>
+    <li>Update pheromones globally, favoring better solutions.</li>
+    <li>Repeat until convergence or max iterations.</li>
+  </ol>
+</section>
+
+<section class="card">
+  <h1>ACO Variants</h1>
+  <h2>III. Evolution of the Algorithm</h2>
+  <h3>1. Taxonomic Overview</h3>
+  
+  <div class="table-responsive">
+    <table>
+      <thead>
+        <tr>
+          <th>Variant</th>
+          <th>Key Features</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ant System (AS)</td>
+          <td>Basic global update; prone to stagnation.</td>
+        </tr>
+        <tr>
+          <td>Ant Colony System (ACS)</td>
+          <td>Local updates during construction; elitist global reinforcement.</td>
+        </tr>
+        <tr>
+          <td>Max-Min Ant System (MMAS)</td>
+          <td>Bounds pheromones to $[\tau_{\min}, \tau_{\max}]$ for better exploration.</td>
+        </tr>
+        <tr>
+          <td>Elitist AS</td>
+          <td>Best solution always deposits extra pheromones.</td>
+        </tr>
+        <tr>
+          <td>Rank-Based AS</td>
+          <td>Weights updates by solution rank.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <h3>2. Applications</h3>
+  <p>ACO excels in NP-hard problems:</p>
+  <ul>
+    <li><strong>Routing:</strong> TSP, vehicle routing.</li>
+    <li><strong>Scheduling:</strong> Job-shop, flow-shop.</li>
+    <li><strong>Assignment:</strong> Quadratic assignment, graph coloring.</li>
+    <li><strong>Other:</strong> Protein folding, network routing, image processing.</li>
+  </ul>
+  <p>It adapts to dynamic environments, like changing graphs in telecom.</p>
+  
+  <figure class="responsive-img">
+    <img src="../img/stochastic-foragin-2.jpg" 
+         alt="ACO iterations visualization showing convergence on optimal TSP tour" 
+         loading="lazy"
+         style="max-width: 100%; height: auto; display: block;">
+    <figcaption>
+      This visualization shows ACO iterations converging on an optimal TSP tour.
+    </figcaption>
+  </figure>
+
+</section>
+
+<section class="card">
+  <h1>The "Anternet"</h1>
+  <h2>IV. Parallels to Internet Protocols</h2>
+  <h3>1. TCP in the Wild</h3>
+  <p>
+    Gordon and Balaji Prabhakar discovered that harvester ants' foraging mirrors the Transmission Control Protocol (TCP) 
+    for internet data traffic—coining it the <strong>"anternet."</strong> Ants adjust foraging rates based on returning 
+    foragers' speed, similar to TCP using packet acknowledgments to gauge bandwidth: fast returns increase activity 
+    (like ramping up data flow), slow returns reduce it (avoiding congestion).
+  </p>
+  
+  <h3>2. Experimental Validation</h3>
+  <p>
+    Experiments confirmed this: manipulating return rates matched TCP-inspired predictions, including 
+    <strong>"slow start"</strong> (initial probing) and <strong>"timeout"</strong> (halting if no returns). 
+    This suggests ant algorithms could inspire robust, decentralized networks, such as distributed robotics or sensor systems.
+  </p>
+  
+  <h3>3. Implications for Network Design</h3>
+  <p>
+    The anternet demonstrates that <em>biological systems have independently evolved solutions to computational problems</em>. 
+    Key takeaways for network engineering:
+  </p>
+  <ul>
+    <li>Decentralized control scales better than hierarchical architectures</li>
+    <li>Local feedback (encounter rates) can regulate global behavior (colony foraging efficiency)</li>
+    <li>Adaptive bandwidth allocation emerges without centralized coordination</li>
+    <li>Robustness to node failure is inherent in the protocol</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h1>Practical Simulation</h1>
+  <h2>V. Basic ACO for TSP</h2>
+  <h3>1. Problem Setup</h3>
+  <p>
+    To illustrate, consider a simple Python implementation of Ant System for a 5-city TSP with the distance matrix:
+  </p>
+  
+  $$
+  \begin{bmatrix}
+  0 & 2 & 9 & 10 & 7 \\
+  2 & 0 & 6 & 4 & 3 \\
+  9 & 6 & 0 & 8 & 5 \\
+  10 & 4 & 8 & 0 & 1 \\
+  7 & 3 & 5 & 1 & 0
+  \end{bmatrix}
+  $$
+  
+  <h3>2. Results</h3>
+  <p>
+    Running 10 ants over 50 iterations with parameters ($\alpha=1$, $\beta=5$, $\rho=0.5$, $Q=100$) yields:
+  </p>
+  <ul>
+    <li><strong>Best tour:</strong> $[4, 3, 1, 0, 2, 4]$</li>
+    <li><strong>Best cost:</strong> $21$</li>
+  </ul>
+  
+  <p>
+    The cost stabilizes early, demonstrating convergence via pheromone reinforcement. 
+    In larger problems, variants like MMAS improve performance.
+  </p>
+  
+  <figure class="responsive-img">
+    <img src="../img/stochastic-foragin-3.jpg" 
+         alt="ACO simulation for TSP showing path evolution and cost reduction over iterations" 
+         loading="lazy"
+         style="max-width: 100%; height: auto; display: block;">
+    <figcaption>
+      Another ACO simulation for TSP, displaying path evolution and cost reduction.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card">
+  <h1>Synthesis: Nature's Efficiency</h1>
+  <h2>VI. Decentralized Systems</h2>
+  <h3>1. Emergent Intelligence</h3>
+  <p>
+    Ant foraging algorithms showcase nature's efficiency in decentralized systems, with broad implications for AI, 
+    networking, and optimization. The key insight is that <strong>complex global behavior emerges from simple local rules</strong>:
+  </p>
+  
+  <h3>2. Core Principles Abstracted</h3>
+  <ul>
+    <li><strong>No central coordinator:</strong> Each agent (ant/algorithm) operates independently</li>
+    <li><strong>Stigmergy:</strong> Indirect communication via environment (pheromones/data structures)</li>
+    <li><strong>Positive feedback:</strong> Good solutions are reinforced exponentially</li>
+    <li><strong>Evaporation/forgetting:</strong> Poor solutions fade, maintaining adaptability</li>
+    <li><strong>Stochastic exploration:</strong> Randomness prevents premature convergence</li>
+  </ul>
+  
+  <h3>3. Cross-Domain Applications</h3>
+  <p>
+    The mapping from biological foraging to computational optimization reveals universal patterns:
+  </p>
+  <ul>
+    <li><strong>Logistics:</strong> Vehicle routing, warehouse management</li>
+    <li><strong>Telecommunications:</strong> Network routing, load balancing</li>
+    <li><strong>Manufacturing:</strong> Job scheduling, assembly line optimization</li>
+    <li><strong>Robotics:</strong> Swarm coordination, path planning</li>
+    <li><strong>Finance:</strong> Portfolio optimization, trading strategies</li>
+    <li><strong>Bioinformatics:</strong> Protein structure prediction, DNA sequencing</li>
+  </ul>
+  
+  <h3>4. The Ukubona Connection</h3>
+  <p>
+    Just as ants "see" via pheromone gradients (ukubona — to see blindly), 
+    ACO algorithms navigate solution spaces through indirect feedback. 
+    The 360°/60s compass metaphor applies: each ant's random walk samples the landscape, 
+    and the colony integrates these measurements into an emergent understanding of optimal paths. 
+    This is <em>stochastic foraging</em> distilled into computational form—
+    survival through gradient descent in the dark.
+  </p>
+</section>
+
+<section class="card">
+  <h1>Mathematical Formalism</h1>
+  <h2>VII. The Pheromone Update Rule</h2>
+  <h3>1. Global Update Equation</h3>
+  <p>
+    The complete pheromone update in Ant System combines evaporation and deposition:
+  </p>
+  
+  $$ \tau_{ij}(t+1) = (1-\rho) \cdot \tau_{ij}(t) + \sum_{k=1}^{m} \Delta\tau_{ij}^k $$
+  
+  <p>where:</p>
+  <ul>
+    <li>$\tau_{ij}(t)$ is pheromone on edge $(i,j)$ at time $t$</li>
+    <li>$\rho \in [0,1]$ is evaporation rate</li>
+    <li>$m$ is number of ants</li>
+    <li>$\Delta\tau_{ij}^k$ is pheromone deposited by ant $k$</li>
+  </ul>
+  
+  <h3>2. Ant Deposition Strategy</h3>
+  <p>
+    For ant $k$ that used edge $(i,j)$ in its tour:
+  </p>
+  
+  $$ \Delta\tau_{ij}^k = \begin{cases} 
+  \frac{Q}{L_k} & \text{if edge } (i,j) \text{ in tour } k \\
+  0 & \text{otherwise}
+  \end{cases} $$
+  
+  <p>where $Q$ is a constant and $L_k$ is the total tour length for ant $k$.</p>
+  
+  <h3>3. Probabilistic State Transition</h3>
+  <p>
+    When ant $k$ at city $i$ chooses next city $j$:
+  </p>
+  
+  $$ p_{ij}^k = \begin{cases}
+  \frac{[\tau_{ij}]^\alpha \cdot [\eta_{ij}]^\beta}{\sum_{l \in \mathcal{N}_i^k} [\tau_{il}]^\alpha \cdot [\eta_{il}]^\beta} & \text{if } j \in \mathcal{N}_i^k \\
+  0 & \text{otherwise}
+  \end{cases} $$
+  
+  <p>where:</p>
+  <ul>
+    <li>$\mathcal{N}_i^k$ is the set of feasible cities for ant $k$ at city $i$</li>
+    <li>$\eta_{ij} = 1/d_{ij}$ is heuristic desirability (inverse distance)</li>
+    <li>$\alpha$ controls pheromone influence</li>
+    <li>$\beta$ controls heuristic influence</li>
+  </ul>
+  
+  <h3>4. The Gradient Descent Analogy</h3>
+  <p>
+    Compare to SGD: $\theta_{t+1} = \theta_t - \eta \nabla J(\theta_t)$
+  </p>
+  <p>
+    In ACO, the "gradient" is the pheromone landscape $\tau$, the "learning rate" is $\rho$ (evaporation), 
+    and the "loss" is tour length $L$. Instead of deterministic descent, we have <em>probabilistic ascent</em> 
+    toward high-pheromone regions, with noise ($\beta$ heuristic) preventing local optima.
+  </p>
+</section>
+
+  </main>
+  <!-- Centralized footer fetch -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts (Order matters!! Feather, shared, then page code) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/landing.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/shared.js"></script>
+  <script src="../js/tooltips.js"></script>

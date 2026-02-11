@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
+<html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="description" content="The Dude's Rug.">
+  <link rel="canonical" href="https://ukb-dt.github.io/repos-00/">
+  <meta name="robots" content="index,follow">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="Repos">
+  <meta property="og:title" content="The Dude's Rug">
+  <meta property="og:description" content="Saddle Point">
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="https://ukb-dt.github.io/repos-00/">
+  <meta property="og:image" content="../img/ukb-landscape.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Dude's Rug">
+  <meta name="twitter:description" content="Saddle Point">
+  <meta name="twitter:image" content="../img/ukb-landscape.jpg"> 
+
+    <!-- Icons / assets -->
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" type="image/x-icon">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-dark.ico" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-light.png" as="image">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-dark.png" as="image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../css/head.css" rel="stylesheet" />
+  <script src="../js/mathjax.js"></script>
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<!-- body[header, main, footer] -->
+<body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
+
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="https://ukb-dt.github.io/repos-00/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+
+
+          <!-- Nietzschean Core -->
+          <a href="#"><div class="icon-box">🔥</div>Dionysian Frenzy</a>
+          <a href="#"><div class="icon-box">🏛️</div>Apollonian Form</a>
+          <a href="#"><div class="icon-box">💥</div>Daemon / Possession</a>
+          <a href="#"><div class="icon-box">⚡</div>Ecstatic Overflow</a>
+          <a href="#"><div class="icon-box">📖</div>Twilight of the Idols</a>
+          <a href="#"><div class="icon-box">🩸</div>Abundance vs. Impoverishment</a>
+
+          <!-- Composers & Performers -->
+          <a href="#"><div class="icon-box">🎹</div>Johann Sebastian Bach</a>
+          <a href="#"><div class="icon-box">🎼</div>Glenn Gould</a>
+          <a href="#"><div class="icon-box">🎻</div>Ludwig van Beethoven</a>
+          <a href="#"><div class="icon-box">🎹</div>Wolfgang Amadeus Mozart</a>
+          <a href="#"><div class="icon-box">🪄</div>Bernstein's Daemon</a>
+
+          <!-- Thermodynamic / Dissipative -->
+          <a href="#"><div class="icon-box">🌪️</div>Dissipative Structure</a>
+          <a href="#"><div class="icon-box">🌡️</div>Far-from-Equilibrium</a>
+          <a href="#"><div class="icon-box">🔥</div>Energy Throughput</a>
+          <a href="#"><div class="icon-box">☢️</div>Hawking Radiation</a>
+          <a href="#"><div class="icon-box">🌀</div>Irreversible Flow</a>
+
+          <!-- Optimization Analogies -->
+          <a href="#"><div class="icon-box">⭐</div>Star (Cliché / Pop)</a>
+          <a href="#"><div class="icon-box">🌧️</div>Raindrop (Art / Exploration)</a>
+          <a href="#"><div class="icon-box">📉</div>Stochastic Gradient Descent</a>
+          <a href="#"><div class="icon-box">🧊</div>Frozen Equilibrium</a>
+          <a href="#"><div class="icon-box">🌡️</div>Temperature > 0</a>
+          <a href="#"><div class="icon-box">📈</div>Noise as Escape</a>
+
+          <!-- Performance Dynamics -->
+          <a href="#"><div class="icon-box">🤘</div>Gould's Frenzy</a>
+          <a href="#"><div class="icon-box">🎭</div>Intoxication Made Audible</a>
+          <a href="#"><div class="icon-box">🕺</div>Physical Dissipation</a>
+          <a href="#"><div class="icon-box">♾️</div>Open Ledger</a>
+          <a href="#"><div class="icon-box">🚀</div>Daemon's Heat Engine</a>
+
+
+    </div>
+  </header>
+
+  <!-- main[sections], footer -->
+  <main class="page wrap-max">
+
+<section class="card">
+  <h1>The Compass at 360°/60s</h1>
+  <h2>I. Radaring in the Dark</h2>
+  <h3>1. The Scout's Dilemma</h3>
+  <h4>I. Blind Vision (Stochastic Foraging)</h4>
+  $$ \theta(t) = \theta_0 + \omega t + \epsilon(t) $$
+  <p>
+    <strong>Ukubona</strong>—to see—but the ant scout sees <em>nothing</em>. 
+    It radars at 360 degrees in 60 seconds, sampling the gradient field blindly. 
+    Each direction \(\theta(t)\) is a hypothesis; each step forward tests the pheromone gradient \(\nabla C(x, y)\). 
+    The scout does not possess the map (\(C(x,y)\) globally)—it only feels the local tilt.
+  </p>
+  <p>
+    This is the compass of survival: not a tool for those who <em>know</em> where North lies, 
+    but for those who must <strong>discover</strong> North by wandering. 
+    The \(\epsilon(t)\) term is the stochastic noise—wind, terrain, error—that prevents the scout 
+    from walking in perfect circles. Paradoxically, this noise is <em>essential</em>: 
+    without it, the scout would orbit forever, never discovering food.
+  </p>
+  <p>
+    The logo is a compass that spins, not points. It radars in 60-second sweeps, 
+    collecting gradients from all directions. The ant aggregates: 
+    $$ \bar{\nabla} = \frac{1}{N} \sum_{i=1}^{N} \nabla C(\theta_i) $$
+    then steps toward the average pull. This is <strong>stochastic gradient descent in the wild</strong>.
+  </p>
+</section>
+
+<section class="card">
+  <h1>The 360° Sweep</h1>
+  <h2>II. Circumference as Epistemology</h2>
+  <h3>2. The Rotating Frame</h3>
+  <h4>II. The Measurement (Angular Sampling)</h4>
+  $$ S_{\text{total}} = \int_0^{2\pi} \nabla C(\theta) \, d\theta $$
+  <p>
+    The scout cannot afford to commit to a single bearing without reconnaissance. 
+    To step North and ignore South is the hubris of the map-holder—the general who "knows" the terrain. 
+    But in the stochastic wild, <strong>the terrain is unknown</strong>. 
+    The compass must sweep the full 360° to sample all gradients.
+  </p>
+  <p>
+    In one minute (60 seconds), the scout completes the circuit. 
+    This is not indecision—it is <em>empirical humility</em>. 
+    The integral \(\int_0^{2\pi}\) is the sum of all directional signals, 
+    weighted by their strength. Where the pheromone trail is strongest, 
+    the gradient vector points. The compass doesn't <em>show</em> this—it <strong>discovers</strong> it.
+  </p>
+  <p>
+    In physiology: the kidney samples blood chemistry at every nephron. 
+    In jazz: the bassist samples harmonic space before committing to the root. 
+    In machine learning: the model evaluates gradients across mini-batches. 
+    The 360°/60s is the <strong>update cycle</strong>, the heartbeat of adaptive systems.
+  </p>
+</section>
+
+<section class="card">
+  <h1>The Stochastic Pulse</h1>
+  <h2>III. Noise as Navigator</h2>
+  <h3>3. The Jitter</h3>
+  <h4>III. The Perturbation (Why Error Matters)</h4>
+  $$ x_{t+1} = x_t + \eta \cdot \bar{\nabla}C + \mathcal{N}(0, \sigma^2) $$
+  <p>
+    If the compass were perfect—no \(\epsilon\), no noise—it would be <em>useless</em>. 
+    A perfect compass in unknown terrain becomes a circle-drawer, 
+    endlessly orbiting the starting point. The scout would starve with pristine geometry.
+  </p>
+  <p>
+    <strong>Noise breaks symmetry.</strong> The Gaussian perturbation \(\mathcal{N}(0, \sigma^2)\) 
+    is the gust of wind that nudges the scout off its circular path, 
+    forcing exploration beyond the local attractor. 
+    This is not a bug—it is the <em>feature</em> of foraging systems.
+  </p>
+  <p>
+    In optimization theory: simulated annealing adds temperature (noise) to escape local minima. 
+    In evolution: genetic drift prevents populations from freezing in suboptimal fitness peaks. 
+    In improvisation: the drummer's "pocket" requires micro-variations (\(\epsilon_{\text{groove}}\)) 
+    to avoid mechanical rigidity. The 60-second radar sweep <em>includes</em> this jitter—
+    not as failure, but as the engine of discovery.
+  </p>
+</section>
+
+<section class="card">
+  <h1>The Logo as Process</h1>
+  <h2>IV. Form Follows Function</h2>
+  <h3>4. Visual Grammar</h3>
+  <h4>IV. The Symbol (Design Constraints)</h4>
+  <p>
+    <strong>What the logo must communicate:</strong>
+  </p>
+  <ul>
+    <li><strong>Rotation:</strong> A compass needle or radar arm sweeping 360°, not static North-pointing</li>
+    <li><strong>Temporal cycle:</strong> Visual suggestion of 60-second intervals (perhaps 12 tick marks like a clock face)</li>
+    <li><strong>Sampling:</strong> Multiple directional vectors or gradient arrows radiating outward, not a single beam</li>
+    <li><strong>Stochasticity:</strong> Irregularity in the sweep pattern—slight wobble, offset markers, asymmetric spacing</li>
+    <li><strong>"Ukubona":</strong> Integration of sight/blindness paradox—perhaps an eye at center that sees via feeling, not light</li>
+  </ul>
+  <p>
+    <strong>Possible visual metaphors:</strong>
+  </p>
+  <ol>
+    <li>A radar screen with sweeping arm leaving fading "ghost" trails of past scans</li>
+    <li>A clock face where each hour is a directional gradient measurement</li>
+    <li>An eye whose iris is composed of 12 directional arrows, pulsing outward</li>
+    <li>A compass rose that rotates around its center, with markers at uneven angles (showing stochastic sampling)</li>
+    <li>Concentric circles (isocontours) with a wandering path spiraling toward center (the minimum)</li>
+  </ol>
+</section>
+
+<section class="card">
+  <h1>The Heresy of the Step</h1>
+  <h2>V. Against Cartesian Certainty</h2>
+  <h3>5. The Apostasy of Empiricism</h3>
+  <h4>V. The Philosophy (Epistemological Stakes)</h4>
+  $$ \text{Rationalism: } f(x) \implies \min f $$
+  $$ \text{Empiricism: } \nabla f(x_t) \implies x_{t+1} $$
+  <p>
+    The map-holders (Descartes, Leibniz, Einstein's smooth manifolds) 
+    demand to <em>see</em> the entire landscape \(f(x)\) before taking a single step. 
+    This is the theology of General Relativity: "God does not play dice." 
+    The coordinates are sacred; the function is given; optimization is <em>deduction</em>.
+  </p>
+  <p>
+    <strong>But the scout has no map.</strong> It walks in the dark with only a local gradient, 
+    updating beliefs every 60 seconds based on what the compass <em>feels</em>, not what it <em>knows</em>. 
+    This is the heresy of quantum mechanics: "Observation collapses possibility into position." 
+    The step is an <strong>act of faith</strong> based on incomplete evidence.
+  </p>
+  <p>
+    Ukubona's philosophy: <em>Seeing is not light-reception; it is gradient-integration over time.</em> 
+    The blind scout sees more truthfully than the omniscient cartographer 
+    because the scout <strong>witnesses</strong> the terrain through contact, 
+    accumulating error-corrected steps into a trajectory. 
+    The logo's rotating compass is the symbol of this epistemology: 
+    not a pointer to Truth, but a <em>sampler</em> building truth incrementally.
+  </p>
+</section>
+
+<section class="card">
+  <h1>The Integral Path</h1>
+  <h2>VI. Trajectory as Identity</h2>
+  <h3>6. The Summation</h3>
+  <h4>VI. The Convergence (History as Optimization)</h4>
+  $$ \mathbf{x}_{\text{final}} = \mathbf{x}_0 + \sum_{t=0}^{T} \eta_t \nabla C(\mathbf{x}_t, \theta_t) $$
+  <p>
+    The scout's path is not planned—it is <em>discovered</em>. 
+    Each 60-second radar sweep yields a direction; each step integrates that measurement. 
+    Over time, the summation \(\sum\) becomes a trajectory, and the trajectory becomes <strong>identity</strong>.
+  </p>
+  <p>
+    In physiology: the body's homeostatic setpoint is not designed but <em>adapted</em> 
+    through millions of feedback loops (kidney function tracking blood chemistry). 
+    In jazz: the "pocket" is not scored but <em>negotiated</em> 
+    through continuous micro-adjustments among musicians. 
+    In survival: the organism is the integral of its gradient descent through evolutionary landscapes.
+  </p>
+  <p>
+    The logo, therefore, is not just a compass—it is a <strong>memento of the path</strong>. 
+    Perhaps it shows the spiral convergence: a wandering line that tightens toward center 
+    as learning rate \(\eta\) decays. Or perhaps it shows multiple overlapping sweeps, 
+    each slightly offset, representing the stochastic mini-batches that average into progress. 
+    The final form is the <em>residue</em> of exploration, the \(C_{\text{identity}}\) 
+    that persists after noise is integrated out.
+  </p>
+</section>
+
+<section class="card">
+  <h1>Design Synthesis</h1>
+  <h2>VII. The Logo Manifesto</h2>
+  <h3>7. Constraints & Principles</h3>
+  <h4>VII. The Implementation</h4>
+  <p><strong>Core Elements:</strong></p>
+  <ol>
+    <li><strong>Central Eye/Anchor:</strong> Represents "ukubona" (to see), but stylized as blind/closed—seeing through sensing</li>
+    <li><strong>12 Radial Markers:</strong> Clock-like divisions representing 60-second intervals (5 seconds each), evoking both time and angular sampling</li>
+    <li><strong>Rotating Sweep Arm:</strong> Primary compass needle/radar that appears mid-sweep (not pointing at 0°/North), suggesting continuous motion</li>
+    <li><strong>Gradient Field:</strong> Faint concentric circles or field lines showing the "loss landscape" being navigated</li>
+    <li><strong>Stochastic Trace:</strong> Ghost images or dotted paths showing previous sweep positions, emphasizing the iterative/exploratory nature</li>
+  </ol>
+  
+  <p><strong>Color Philosophy:</strong></p>
+  <ul>
+    <li>Dark mode primary: Deep navy/black background (the "unknown" terrain)</li>
+    <li>Accent: Warm amber/gold for the sweep arm (active measurement, the "now")</li>
+    <li>Secondary: Faded blue/gray for ghost traces (historical samples, the integrated past)</li>
+    <li>Tertiary: Subtle green for convergence zones (discovered optima, the "truth" emerging from data)</li>
+  </ul>
+
+  <p><strong>Typography Pairing:</strong></p>
+  <ul>
+    <li>"UKUBONA LLC" in clean, geometric sans-serif (suggesting precision instruments, technical rigor)</li>
+    <li>Tagline in italicized serif: <em>"To see, blindly"</em> or <em>"Stochastic foraging since 2025"</em></li>
+  </ul>
+
+  <p><strong>Avoid:</strong></p>
+  <ul>
+    <li>Static compass pointing due North (contradicts the stochastic exploration concept)</li>
+    <li>Perfect symmetry (undermines the role of noise/perturbation)</li>
+    <li>Literal ant imagery (too on-the-nose; the metaphor should be abstracted)</li>
+    <li>Overwrought complexity (the power is in the simple rotating sweep + noise)</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h1>The Mirror of Measurement</h1>
+  <h2>VIII. Ivyabona — To Witness</h2>
+  <h3>8. Reflexivity</h3>
+  <h4>VIII. The Observation (Meta-Awareness)</h4>
+  $$ \frac{d}{dt}\left(\frac{dy}{dx}\right) = \text{sensitivity to one's own sensitivity} $$
+  <p>
+    "Ukubona" is to see. "Ivyabona" is to <em>witness</em>—to see oneself seeing. 
+    The logo must encode this reflexivity: not just a tool that measures, 
+    but a symbol that <strong>acknowledges its own limitations</strong>.
+  </p>
+  <p>
+    The rotating compass knows it is blind. 
+    The 360° sweep is an admission: "I do not know which direction is correct, 
+    so I will sample all directions and integrate." 
+    This is the opposite of the corporate logo that projects confidence and certainty. 
+    Ukubona LLC's identity is <em>epistemic humility</em>—the wisdom of the scout 
+    who survives precisely because they assume ignorance.
+  </p>
+  <p>
+    In the logo: perhaps the central eye is simultaneously open and closed—
+    a visual paradox. Or the compass rose includes a mirror/reflection, 
+    suggesting that every outward measurement is also an inward interrogation. 
+    The viewer sees the logo "seeing" itself, caught in the act of calibration.
+  </p>
+  <p>
+    <strong>The final message:</strong> We navigate by continuous re-measurement, 
+    not by inherited maps. Our expertise is in <em>adaptive protocols</em>, 
+    not static solutions. The compass rotates—and will continue rotating—
+    because the landscape is always changing, and the only way to see 
+    is to remain perpetually vigilant, perpetually questioning, perpetually <em>foraging</em>.
+  </p>
+</section>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrap-max footer-wrap">
+      <div class="footer-chorus" aria-label="Ukubona chorus">
+        <span class="chip">"Ukubona" means to see</span>
+        <span class="chip"><em>"Ivyabona" means to witness</em> —</span>
+        <span class="chip">to look into the mirror.</span>
+      </div>
+      <div class="footer-extra" hidden></div>
+      <div class="footer-footnote" aria-live="polite"></div>
+      <div class="footer-micro" style="margin-top:12px">
+        <p>© 2025 Ukubona LLC · <a href="https://ukubona-llc.github.io/assets/files/ukubona.vcf" download>vCard</a> · Johns Hopkins Enterprise Vendor (June 2025)</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

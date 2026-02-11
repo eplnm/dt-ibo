@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- html, head, body[header, main, footer] -->
+<html lang="en" data-theme="dark">
+<!-- head, body[header, main, footer] -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ukhona — An Accounting of Survival</title>
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="description" content="The Dude's Rug.">
+  <link rel="canonical" href="https://ukb-dt.github.io/repos-00/">
+  <meta name="robots" content="index,follow">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="Repos">
+  <meta property="og:title" content="The Dude's Rug">
+  <meta property="og:description" content="Saddle Point">
+  <meta property="og:type" content="blog">
+  <meta property="og:url" content="https://ukb-dt.github.io/repos-00/">
+  <meta property="og:image" content="../img/ukb-landscape.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Dude's Rug">
+  <meta name="twitter:description" content="Saddle Point">
+  <meta name="twitter:image" content="../img/ukb-landscape.jpg"> 
+
+    <!-- Icons / assets -->
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" type="image/x-icon">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-light.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="https://abikesa.github.io/favicon/assets/favicon-dark.ico" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-light.png" as="image">
+  <link rel="preload" href="https://abikesa.github.io/logos/assets/ukubona-dark.png" as="image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../css/head.css" rel="stylesheet" />
+  <script src="../js/mathjax.js"></script>
+  <script id="MathJax-script" defer
+     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<!-- body[header, main, footer] -->
+<body>
+  <div class="scroll-indicator"><div class="scroll-progress"></div></div>
+  <div class="bg-pattern"></div>
+  <!-- header, main, footer -->
+  <header class="header">
+    <div class="nav-container wrap-max">
+      <img src="https://abikesa.github.io/logos/assets/ukubona-dark.png"
+           alt="Ukubona LLC Logo"
+           id="logo"
+           class="logo" />
+
+      <div class="top-right">
+        <ul class="nav-links">
+          <li><a href="https://ukb-dt.github.io/repos-00/" class="nav-link" data-nav="home">Home</a></li>
+        </ul>
+
+        <button class="menu-icon" id="menuIcon" role="button" aria-label="Open navigation menu" aria-expanded="false">
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+          <div></div><div></div><div></div>
+        </button>
+
+        <button id="toggle-theme" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+    <div class="app-grid wrap-max" id="gridMenu" aria-hidden="true">
+
+<!-- Pentadic Calculus: The Five Phases -->
+          <a href="https://ukb-dt.github.io/buganda-seasons-00/"><div class="icon-box">🌱</div>State (Soil)</a>
+          <a href="https://ukb-dt.github.io/buganda-seasons-01/"><div class="icon-box">🌾</div>Transform (Roots)</a>
+          <a href="https://ukb-dt.github.io/buganda-seasons-02/"><div class="icon-box">🌳</div>Change (Trunk)</a>
+          <a href="https://ukb-dt.github.io/buganda-seasons-03/"><div class="icon-box">🌿</div>Rate of Change (Branches)</a>
+          <a href="https://ukb-dt.github.io/buganda-seasons-04/"><div class="icon-box">🍎</div>Estate (Fruit)</a>
+          <!-- Luganda Calendar: Temporal Cosmology -->
+          <a href="#"><div class="icon-box">🍌</div>Gatonnya (Fruit)</a>
+          <a href="#"><div class="icon-box">🪨</div>Mukutulansanja (Earth)</a>
+          <a href="#"><div class="icon-box">🌱</div>Mugulansigo (Seed)</a>
+          <a href="#"><div class="icon-box">🐜</div>Kafuumuulampawu (Biomass)</a>
+          <a href="#"><div class="icon-box">🐄</div>Muzigo (Foodchain)</a>
+          <a href="#"><div class="icon-box">📊</div>Ssebaaseka (Ledger)</a>
+          <a href="#"><div class="icon-box">⛏️</div>Kasambula (Soil)</a>
+          <a href="#"><div class="icon-box">🔄</div>Muwakanya (Transition)</a>
+          <a href="#"><div class="icon-box">🏪</div>Mutunda (Market)</a>
+          <a href="#"><div class="icon-box">🌾</div>Mukulukusabitungotungo (Harvest)</a>
+          <a href="#"><div class="icon-box">🦗</div>Museenene (Gathering)</a>
+          <a href="#"><div class="icon-box">🌙</div>Ntenvu (Rest)</a>
+
+          <!-- Calculus Notation -->
+          <a href="#"><div class="icon-box">📍</div>(x, y) Initial</a>
+          <a href="#"><div class="icon-box">🔀</div>y(t | x) + ε</a>
+          <a href="#"><div class="icon-box">📈</div>dy/dt Velocity</a>
+          <a href="#"><div class="icon-box">📊</div>d²y/dt² Acceleration</a>
+          <a href="#"><div class="icon-box">∫</div>∫y dt + C</a>
+          <a href="#"><div class="icon-box">🎲</div>ε Noise</a>
+          <a href="#"><div class="icon-box">📉</div>±z Variance</a>
+          <a href="#"><div class="icon-box">🔐</div>C Constant (Scars)</a>
+
+          <!-- Bio-Recursive Tree Topology -->
+          <a href="#"><div class="icon-box">🌰</div>Seed (Potential)</a>
+          <a href="#"><div class="icon-box">🌱</div>Roots (Interaction)</a>
+          <a href="#"><div class="icon-box">🌳</div>Trunk (Growth)</a>
+          <a href="#"><div class="icon-box">🌿</div>Branches (Divergence)</a>
+          <a href="#"><div class="icon-box">🍃</div>Canopy (Legacy)</a>
+          <a href="#"><div class="icon-box">🍎</div>Fruit (Yield)</a>
+
+          <!-- Survival as Loss Function -->
+          <a href="#"><div class="icon-box">🎯</div>Loss = Survival</a>
+          <a href="#"><div class="icon-box">🌧️</div>Constraint (Weather)</a>
+          <a href="#"><div class="icon-box">📖</div>Grammar (Tradition)</a>
+          <a href="#"><div class="icon-box">⚖️</div>Optimization</a>
+          <a href="#"><div class="icon-box">🦟</div>Risk (Malaria)</a>
+          <a href="#"><div class="icon-box">🐜</div>Stochastic (Swarms)</a>
+          <a href="#"><div class="icon-box">💾</div>Integration (Memory)</a>
+
+          <!-- Identity as Integral -->
+          <a href="#"><div class="icon-box">🪪</div>Identity (Trailing)</a>
+          <a href="#"><div class="icon-box">🩹</div>Scars (C_x)</a>
+          <a href="#"><div class="icon-box">📚</div>Cultural Knowledge</a>
+          <a href="#"><div class="icon-box">🔁</div>Cyclical Time</a>
+          <a href="#"><div class="icon-box">🌍</div>Land (State)</a>
+          <a href="#"><div class="icon-box">⛏️</div>Digging (Transform)</a>
+          <a href="#"><div class="icon-box">🥘</div>Harvest (Stories)</a>
+
+          <!-- Scale Invariance: Teaching Across Levels -->
+          <a href="#"><div class="icon-box">👶</div>Kindergarten (Blocks)</a>
+          <a href="#"><div class="icon-box">📐</div>PhD (Symbols)</a>
+          <a href="#"><div class="icon-box">💼</div>CEO (Narratives)</a>
+          <a href="#"><div class="icon-box">🔬</div>Fractal Recognition</a>
+          <a href="#"><div class="icon-box">🌀</div>Isomorphism</a>
+          <a href="#"><div class="icon-box">🎓</div>Translation (Scales)</a>
+          <a href="#"><div class="icon-box">💡</div>Aha! Moment</a>
+
+    </div>
+  </header>
+
+  <!-- main[sections], footer -->
+  <main class="page wrap-max">
+
+<!-- G -->
+<section class="card">
+    <h1>The Upgrade: Time-Series Velocity</h1>
+    <p>Here is the upgrade. We are adding a time-series dimension to your Digital Twin to show <strong>velocity</strong> (the first derivative of completion).</p>
+</section>
+
+<section class="card">
+    <h2>Part 1: The Code Upgrade</h2>
+    <h3>1. Update data_gen.py</h3>
+    <p>We need to simulate historical data so the chart has something to render. Replace your <code>generate_landscape_data</code> function with this updated version that adds a <code>history</code> block.</p>
+    
+    <pre><code class="language-python"># ... (imports remain the same)
+
+def generate_landscape_data():
+    # ... (Keep existing project/metrics logic from previous step) ...
+    
+    # [NEW] Simulate Historical Velocity (The derivative)
+    # Mocking the last 6 months of aggregate completion %
+    history_months = ["Aug", "Sep", "Oct", "Nov", "Dec", "Jan"]
+    # Simulating a sigmoid curve (slow start, rapid growth)
+    history_values = [15, 22, 35, 48, 65, 78] 
+
+    # 3. Ecosystem Metrics (The Aggregate)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    data = {
+        "meta": {
+            "timestamp": timestamp,
+            "company_health": "Self-Aware",
+            "model_version": "Ukubona v0.2 (Velocity)"
+        },
+        "optimization": {
+            # ... (Keep existing optimization metrics) ...
+             "total_payload_biomass": total_biomass_moved,
+            "system_velocity": round(sum(p['speed'] for p in project_data) / len(projects), 2),
+            "total_energy_cost": total_capital_burned,
+            "global_einstein_score": round(sum(p['einstein_score'] for p in project_data), 2)
+        },
+        "landscape": project_data,
+        "stakeholders": {
+             # ... (Keep existing stakeholders) ...
+            "investors_sd": {"sentiment": "Cautious", "last_login": "2 hours ago"},
+            "board_ug": {"sentiment": "Grilling", "last_login": "10 mins ago"},
+            "regulator": {"status": "Compliant"}
+        },
+        "history": {  # <--- NEW SECTION
+            "labels": history_months,
+            "dataset": history_values
+        }
+    }
+
+    # Save to JSON
+    with open('company_data.json', 'w') as f:
+        json.dump(data, f, indent=4)
+    print(f"[{timestamp}] Landscape updated with Historical Velocity.")
+
+if __name__ == "__main__":
+    generate_landscape_data()</code></pre>
+</section>
+
+<section class="card">
+    <h3>2. Update dashboard.html</h3>
+    <p>Replace your <code>dashboard.html</code> with this version. It includes <strong>Chart.js</strong> and renders the velocity graph.</p>
+    
+    <pre><code class="language-html">{% extends "base.html" %}
+
+{% block content %}
+&lt;script src="https://cdn.jsdelivr.net/npm/chart.js"&gt;&lt;/script&gt;
+
+&lt;div class="row mb-4"&gt;
+    &lt;div class="col-md-12 text-center"&gt;
+        &lt;h2&gt;The Universe's Ledger&lt;/h2&gt;
+        &lt;p class="text-muted"&gt;Optimization Metric: $ \frac{Mass \times Velocity}{Energy} $&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="row text-center mb-5"&gt;
+    &lt;div class="col-md-4"&gt;
+        &lt;div class="metric-card"&gt;
+            &lt;h5&gt;Payload (Biomass)&lt;/h5&gt;
+            &lt;h3&gt;{{ data.optimization.total_payload_biomass }} Families&lt;/h3&gt;
+            &lt;p class="text-muted"&gt;Relocated to Ownership&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+        &lt;div class="metric-card border-primary" style="border: 2px solid #0d6efd;"&gt;
+            &lt;h5 class="text-primary"&gt;Global Einstein Score&lt;/h5&gt;
+            &lt;div class="hero-score"&gt;{{ grand_score }}&lt;/div&gt;
+            &lt;p class="text-muted"&gt;Efficiency Index&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+        &lt;div class="metric-card"&gt;
+            &lt;h5&gt;System Energy (Cost)&lt;/h5&gt;
+            &lt;h3&gt;${{ "{:,}".format(data.optimization.total_energy_cost) }}&lt;/h3&gt;
+            &lt;p class="text-muted"&gt;Capital Deployed&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+
+&lt;div class="row"&gt;
+    &lt;div class="col-md-7"&gt;
+        &lt;h4&gt;Project Landscape (Floor Coordinates)&lt;/h4&gt;
+        &lt;table class="table table-hover bg-white rounded shadow-sm"&gt;
+            &lt;thead class="table-dark"&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Project&lt;/th&gt;
+                    &lt;th&gt;Completion&lt;/th&gt;
+                    &lt;th&gt;Status&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                {% for proj in data.landscape %}
+                &lt;tr&gt;
+                    &lt;td&gt;{{ proj.name }}&lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;div class="d-flex align-items-center"&gt;
+                            &lt;span class="me-2"&gt;{{ proj.completion }}%&lt;/span&gt;
+                            &lt;div class="progress flex-grow-1" style="height: 6px;"&gt;
+                                &lt;div class="progress-bar bg-success" style="width: {{ proj.completion }}%"&gt;&lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;span class="badge {{ 'bg-success' if proj.status == 'On Time' else 'bg-warning' }}"&gt;
+                            {{ proj.status }}
+                        &lt;/span&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                {% endfor %}
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+        
+        &lt;div class="metric-card mt-4"&gt;
+            &lt;h5&gt;System Velocity: Projects Completed Over Time&lt;/h5&gt;
+            &lt;canvas id="velocityChart"&gt;&lt;/canvas&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-md-5"&gt;
+        &lt;h4&gt;Stakeholder Pulse&lt;/h4&gt;
+        &lt;div class="list-group mb-4"&gt;
+            &lt;a href="#" class="list-group-item list-group-item-action"&gt;
+                &lt;div class="d-flex w-100 justify-content-between"&gt;
+                    &lt;h5 class="mb-1"&gt;Investors (SD)&lt;/h5&gt;
+                    &lt;small&gt;{{ data.stakeholders.investors_sd.last_login }}&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;p class="mb-1"&gt;Sentiment: {{ data.stakeholders.investors_sd.sentiment }}&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;a href="#" class="list-group-item list-group-item-action"&gt;
+                &lt;div class="d-flex w-100 justify-content-between"&gt;
+                    &lt;h5 class="mb-1"&gt;Board (UG)&lt;/h5&gt;
+                    &lt;small&gt;{{ data.stakeholders.board_ug.last_login }}&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;p class="mb-1"&gt;Sentiment: {{ data.stakeholders.board_ug.sentiment }}&lt;/p&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="alert alert-dark"&gt;
+            &lt;strong&gt;The Philosophy:&lt;/strong&gt;&lt;br&gt;
+            We do not optimize for profit directly. We optimize for the efficient movement of human biomass from rental units to owned homes. Profit is the byproduct of satisfying this physics equation.
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    const ctx = document.getElementById('velocityChart').getContext('2d');
+    const velocityChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: {{ data.history.labels | tojson }},
+            datasets: [{
+                label: '% Projects Completed (Cumulative)',
+                data: {{ data.history.dataset | tojson }},
+                borderColor: '#27ae60',
+                backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: { beginAtZero: true, max: 100 }
+            }
+        }
+    });
+&lt;/script&gt;
+{% endblock %}</code></pre>
+</section>
+
+<section class="card">
+    <h2>Part 2: The Articulated Vision</h2>
+    <p>Here is the sharp, articulated version of your vision. You can print this out as a "Manifesto" or recite it. It bridges the gap between his historian/finance background and your physics/engineering approach.</p>
+    
+    <h3>Title: The Physics of Ownership</h3>
+    <blockquote>
+    "Business is not merely accounting; it is engineering. The Medici double-entry ledger was designed to track <em>wealth</em>, but it fails to track <em>work</em>.
+    
+    To solve the crisis of housing, we must stop viewing this company as a bank account and start viewing it as a physical engine. Our goal is not just 'profit'—that is vague. Our goal is to solve an optimization problem defined by the constraints of physics:
+    
+    $$\text{Optimization} = \frac{\text{Mass} \times \text{Velocity}}{\text{Energy}}$$
+    
+    <ul>
+        <li><strong>The Mass:</strong> The biomass of human families moved from renting to owning.</li>
+        <li><strong>The Velocity:</strong> The speed at which we construct and deliver these units ().</li>
+        <li><strong>The Energy:</strong> The capital cost ($) required to overcome the friction of the market.</li>
+    </ul>
+    
+    <strong>The Problem:</strong>
+    Right now, your company is a 'Black Box.' Your investors in South Dakota and your board in Uganda are experiencing high entropy (disorder). They cannot see the engine running, so they panic. This is the Principal-Agent problem: the disconnect between those who own the capital and those who do the work.
+    
+    <strong>The Solution: Ukubona (The Digital Twin)</strong>
+    I propose we build a Digital Twin of your enterprise. This is not just a website; it is a sensory organ. It ingests data from your construction sites, your bank accounts, and your regulatory filings, and renders them onto a single, immutable dashboard—the Universe's Ledger.
+    
+    This Twin allows your South Dakota investors to see the 'velocity' of their capital in real-time. It allows your board to see the 'mass' of families being moved. It reduces the latency of information to zero, bounded only by the speed of light.
+    
+    I am not asking for a salary. I am asking for a maintenance contract to build and calibrate this instrument. Let me build the Twin, and let the physics dictate the profit."
+    </blockquote>
+</section>
+
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="wrap-max footer-wrap">
+      <div class="footer-chorus" aria-label="Ukubona chorus">
+        <span class="chip">"Ukubona" means to see</span>
+        <span class="chip"><em>"Ivyabona" means to witness</em> —</span>
+        <span class="chip">to look into the mirror.</span>
+      </div>
+      <div class="footer-extra" hidden></div>
+      <div class="footer-footnote" aria-live="polite"></div>
+      <div class="footer-micro" style="margin-top:12px">
+        <p>© 2025 Ukubona LLC · <a href="https://ukubona-llc.github.io/assets/files/ukubona.vcf" download>vCard</a> · Johns Hopkins Enterprise Vendor (June 2025)</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
